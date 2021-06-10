@@ -1,0 +1,17 @@
+*INFO DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 10, 2021 13:42:50
+
+*RUN   1        : 20 IRRIG, light rate,freq          KSRT2001    1
+
+ EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED
+ DATA PATH      :
+ TREATMENT  1   : 20 IRRIG, light rate,freq
+  
+
+ MAKEFW  YEAR DOY =    0   0
+ Y4KDOY - Weather file                                                         
+ Not able to find 7-digits first weather date                                  
+ Set simulation to 5-digits first weather date                                 

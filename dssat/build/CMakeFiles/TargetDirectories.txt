@@ -1,0 +1,7 @@
+/home/ztz/dssat_kcb/dssat/build/CMakeFiles/install/strip.dir
+/home/ztz/dssat_kcb/dssat/build/CMakeFiles/install/local.dir
+/home/ztz/dssat_kcb/dssat/build/CMakeFiles/install.dir
+/home/ztz/dssat_kcb/dssat/build/CMakeFiles/list_install_components.dir
+/home/ztz/dssat_kcb/dssat/build/CMakeFiles/rebuild_cache.dir
+/home/ztz/dssat_kcb/dssat/build/CMakeFiles/edit_cache.dir
+/home/ztz/dssat_kcb/dssat/build/CMakeFiles/dscsm047.dir

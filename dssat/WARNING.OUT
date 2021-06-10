@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 10, 2021 13:42:50
+
+*RUN   1        : 20 IRRIG, light rate,freq          KSRT2001    1
+
+ EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED
+ DATA PATH      :
+ TREATMENT  1   : 20 IRRIG, light rate,freq
+  
+
+ IPEXP   YEAR DOY =    0   0
+ Photosynthesis method (PHOTO in FILEX) has been changed                       
+ from "L" to "C" for compatibility with crop model, MZCER.                     
