@@ -1,178 +1,178 @@
 *** *  DSSAT PROFILE LINUX* ***
-DDB // 
-DTB // 
-DTE // 
-DTO // 
-DAT // 
-DPT // 
-DIM // 
-DTP // 
-DPF // 
-DFO // 
-DIS // 
-DDW // 
-DWG // 
-DWC // 
-DDS // 
-DTS // 
-DDG // 
-DCG // /TOOLS/GENCALC GENCALC2.EXE
-DGL // /TOOLS/GLUE GLUE.BAT
-DPM // 
-DDE // 
-TOG // /TOOLS/GBUILD GBUILD.EXE
+DDB // /home/ztz/dssat_kcb/dssat
+DTB // /home/ztz/dssat_kcb/dssat
+DTE // /home/ztz/dssat_kcb/dssat
+DTO // /home/ztz/dssat_kcb/dssat
+DAT // /home/ztz/dssat_kcb/dssat
+DPT // /home/ztz/dssat_kcb/dssat
+DIM // /home/ztz/dssat_kcb/dssat
+DTP // /home/ztz/dssat_kcb/dssat
+DPF // /home/ztz/dssat_kcb/dssat
+DFO // /home/ztz/dssat_kcb/dssat
+DIS // /home/ztz/dssat_kcb/dssat
+DDW // /home/ztz/dssat_kcb/dssat
+DWG // /home/ztz/dssat_kcb/dssat
+DWC // /home/ztz/dssat_kcb/dssat
+DDS // /home/ztz/dssat_kcb/dssat
+DTS // /home/ztz/dssat_kcb/dssat
+DDG // /home/ztz/dssat_kcb/dssat
+DCG // /home/ztz/dssat_kcb/dssat/TOOLS/GENCALC GENCALC2.EXE
+DGL // /home/ztz/dssat_kcb/dssat/TOOLS/GLUE GLUE.BAT
+DPM // /home/ztz/dssat_kcb/dssat
+DDE // /home/ztz/dssat_kcb/dssat
+TOG // /home/ztz/dssat_kcb/dssat/TOOLS/GBUILD GBUILD.EXE
 
-MAL //  dscsm047 PRFRM047
-MAR // 
-MBA //  dscsm047 CSCER047
-MBH //  dscsm047 CRGRO047
-MBM //  dscsm047 PRFRM047
-MBN //  dscsm047 CRGRO047
-MBR //  dscsm047 PRFRM047
-MBS //  dscsm047 BSCER047
-MBW // 
-MCB //  dscsm047 CRGRO047
-MCH //  dscsm047 CRGRO047
-MCT // 
-MCN //  dscsm047 CRGRO047
-MCI //  dscsm047 CRGRO047
-MCO //  dscsm047 CRGRO047
-MCP //  dscsm047 CRGRO047
-MCS //  dscsm047 CSYCA047
-MCV // 
-MFA //  dscsm047 CRGRO047
-MFB //  dscsm047 CRGRO047
-MGB //  dscsm047 CRGRO047
-MGW // 
-MLT //  dscsm047 CRGRO047
-MML //  dscsm047 MLCER047
-MMZ //  dscsm047 MZCER047
-MNN // 
-MNP //  dscsm047 CRGRO047
-MOA // 
-MPE // 
-MPI //  dscsm047 PIALO047
-MPN //  dscsm047 CRGRO047
-MPO // 
-MPP //  dscsm047 CRGRO047
-MPR //  dscsm047 CRGRO047
-MPT //  dscsm047 PTSUB047
-MQU //  dscsm047 CRGRO047
-MRI //  dscsm047 RICER047
-MRP // 
-MSB //  dscsm047 CRGRO047
-MSC //  dscsm047 SCCAN047
-MSF //  dscsm047 CRGRO047
-MSG //  dscsm047 SGCER047
-MSI // 
-MSS // 
-MSU //  dscsm047 CRGRO047
-MSW //  dscsm047 SWCER047
-MTF //  dscsm047 TFAPS047
-MTM //  dscsm047 CRGRO047
-MTN //  dscsm047 TNARO047
-MTR //  dscsm047 TRARO047
-MVB //  dscsm047 CRGRO047
-MVI // 
-MWH //  dscsm047 CSCER047
-MOT // 
-MU1 // 
-MU2 // 
-MIO // 
-MLO // 
-MG0 //  dscsm047 PRFRM047
+MAL // /home/ztz/dssat_kcb/dssat dscsm047 PRFRM047
+MAR // /home/ztz/dssat_kcb/dssat
+MBA // /home/ztz/dssat_kcb/dssat dscsm047 CSCER047
+MBH // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MBM // /home/ztz/dssat_kcb/dssat dscsm047 PRFRM047
+MBN // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MBR // /home/ztz/dssat_kcb/dssat dscsm047 PRFRM047
+MBS // /home/ztz/dssat_kcb/dssat dscsm047 BSCER047
+MBW // /home/ztz/dssat_kcb/dssat
+MCB // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MCH // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MCT // /home/ztz/dssat_kcb/dssat
+MCN // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MCI // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MCO // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MCP // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MCS // /home/ztz/dssat_kcb/dssat dscsm047 CSYCA047
+MCV // /home/ztz/dssat_kcb/dssat
+MFA // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MFB // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MGB // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MGW // /home/ztz/dssat_kcb/dssat
+MLT // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MML // /home/ztz/dssat_kcb/dssat dscsm047 MLCER047
+MMZ // /home/ztz/dssat_kcb/dssat dscsm047 MZCER047
+MNN // /home/ztz/dssat_kcb/dssat
+MNP // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MOA // /home/ztz/dssat_kcb/dssat
+MPE // /home/ztz/dssat_kcb/dssat
+MPI // /home/ztz/dssat_kcb/dssat dscsm047 PIALO047
+MPN // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MPO // /home/ztz/dssat_kcb/dssat
+MPP // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MPR // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MPT // /home/ztz/dssat_kcb/dssat dscsm047 PTSUB047
+MQU // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MRI // /home/ztz/dssat_kcb/dssat dscsm047 RICER047
+MRP // /home/ztz/dssat_kcb/dssat
+MSB // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MSC // /home/ztz/dssat_kcb/dssat dscsm047 SCCAN047
+MSF // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MSG // /home/ztz/dssat_kcb/dssat dscsm047 SGCER047
+MSI // /home/ztz/dssat_kcb/dssat
+MSS // /home/ztz/dssat_kcb/dssat
+MSU // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MSW // /home/ztz/dssat_kcb/dssat dscsm047 SWCER047
+MTF // /home/ztz/dssat_kcb/dssat dscsm047 TFAPS047
+MTM // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MTN // /home/ztz/dssat_kcb/dssat dscsm047 TNARO047
+MTR // /home/ztz/dssat_kcb/dssat dscsm047 TRARO047
+MVB // /home/ztz/dssat_kcb/dssat dscsm047 CRGRO047
+MVI // /home/ztz/dssat_kcb/dssat
+MWH // /home/ztz/dssat_kcb/dssat dscsm047 CSCER047
+MOT // /home/ztz/dssat_kcb/dssat
+MU1 // /home/ztz/dssat_kcb/dssat
+MU2 // /home/ztz/dssat_kcb/dssat
+MIO // /home/ztz/dssat_kcb/dssat
+MLO // /home/ztz/dssat_kcb/dssat
+MG0 // /home/ztz/dssat_kcb/dssat dscsm047 PRFRM047
 
-MGR // 
-NSH // 
-ASP // 
-ASS //  dscsm047
-ASA //  VARAN2.EXE
-AGR // 
-AQS //  dscsm047
-AQA //  SUSTAIN2.EXE
-ASX // 
-APS //  dscsm047
-APV // 
-APM // 
-APA //  VARAN2.EXE
-APJ // 
-APF // 
-APP // 
-APK //  DISC9801.EXE
+MGR // /home/ztz/dssat_kcb/dssat
+NSH // /home/ztz/dssat_kcb/dssat
+ASP // /home/ztz/dssat_kcb/dssat
+ASS // /home/ztz/dssat_kcb/dssat dscsm047
+ASA // /home/ztz/dssat_kcb/dssat VARAN2.EXE
+AGR // /home/ztz/dssat_kcb/dssat
+AQS // /home/ztz/dssat_kcb/dssat dscsm047
+AQA // /home/ztz/dssat_kcb/dssat SUSTAIN2.EXE
+ASX // /home/ztz/dssat_kcb/dssat
+APS // /home/ztz/dssat_kcb/dssat dscsm047
+APV // /home/ztz/dssat_kcb/dssat
+APM // /home/ztz/dssat_kcb/dssat
+APA // /home/ztz/dssat_kcb/dssat VARAN2.EXE
+APJ // /home/ztz/dssat_kcb/dssat
+APF // /home/ztz/dssat_kcb/dssat
+APP // /home/ztz/dssat_kcb/dssat
+APK // /home/ztz/dssat_kcb/dssat DISC9801.EXE
 TOE // /WINDOWS NOTEPAD.EXE
 TOS // /
 TOM // /
-BGD // /BACKGROUND
-STD // /StandardData
-CDD // 
-WED // /Weather
-WGD // /Weather/Gen
-CLD // /Weather/Climate
-WMD // /Weather/Month
-SLD // /Soil
-CRD // /cygdrive/c/Users/ztz/github_projects/sharda_python_practice/Genotype
-FID // /Background
-ALD // /Alfalfa
-GCD // /GCWork
-GUD // /GLWork
-ARD // /
-BAD // /Barley
-BHD // /Bahia
-BMD // /Bermudagrass
-BND // /Drybean
-BRD // /Brachiaria
-BSD // /Sugarbeet
-BWD // /
-CBD // /Cabbage
-CHD // /Chickpea
-CID // /Chia
-CTD // /Citrus
-CND // /Canola
-COD // /Cotton
-CPD // /Cowpea
-CSD // /Cassava
-CVD // /Clover
-FAD // /Fallow
-FBD // /Fababean
-GBD // /GreenBean
-GWD // /Weeds
-LTD // /Lentil
-MLD // /Millet
-MZD // /Maize
-NND // /Banana
-NPD // /Napier
-OAD // /Oats
-PED // /Pea
-PID // /Pineapple
-PND // /Peanut
-POD // /PerennialPeanut
-PPD // /Pigeonpea
-PRD // /Pepper
-PTD // /Potato
-QUD // /Quinoa
-RID // /Rice
-RPD // /Rhizomapeanut
-SBD // /Soybean
-SCD // /Sugarcane
-SFD // /Safflower
-SGD // /Sorghum
-SSD // /
-SID // 
-SUD // /Sunflower
-SWD // /SweetCorn
-TFD // /Teff
-TMD // /Tomato
-TND // /Tanier
-TRD // /Taro
-VBD // /Velvetbean
-VID // /
-WHD // /Wheat
-U1D // /CROP1
-U2D // /CROP2
+BGD // /home/ztz/dssat_kcb/dssat/BACKGROUND
+STD // /home/ztz/dssat_kcb/dssat/StandardData
+CDD // /home/ztz/dssat_kcb/dssat
+WED // /home/ztz/dssat_kcb/dssat/Weather
+WGD // /home/ztz/dssat_kcb/dssat/Weather/Gen
+CLD // /home/ztz/dssat_kcb/dssat/Weather/Climate
+WMD // /home/ztz/dssat_kcb/dssat/Weather/Month
+SLD // /home/ztz/dssat_kcb/dssat/Soil
+CRD // /home/ztz/dssat_kcb/dssat/Genotype
+FID // /home/ztz/dssat_kcb/dssat/Background
+ALD // /home/ztz/dssat_kcb/dssat/Alfalfa
+GCD // /home/ztz/dssat_kcb/dssat/GCWork
+GUD // /home/ztz/dssat_kcb/dssat/GLWork
+ARD // /home/ztz/dssat_kcb/dssat/
+BAD // /home/ztz/dssat_kcb/dssat/Barley
+BHD // /home/ztz/dssat_kcb/dssat/Bahia
+BMD // /home/ztz/dssat_kcb/dssat/Bermudagrass
+BND // /home/ztz/dssat_kcb/dssat/Drybean
+BRD // /home/ztz/dssat_kcb/dssat/Brachiaria
+BSD // /home/ztz/dssat_kcb/dssat/Sugarbeet
+BWD // /home/ztz/dssat_kcb/dssat/
+CBD // /home/ztz/dssat_kcb/dssat/Cabbage
+CHD // /home/ztz/dssat_kcb/dssat/Chickpea
+CID // /home/ztz/dssat_kcb/dssat/Chia
+CTD // /home/ztz/dssat_kcb/dssat/Citrus
+CND // /home/ztz/dssat_kcb/dssat/Canola
+COD // /home/ztz/dssat_kcb/dssat/Cotton
+CPD // /home/ztz/dssat_kcb/dssat/Cowpea
+CSD // /home/ztz/dssat_kcb/dssat/Cassava
+CVD // /home/ztz/dssat_kcb/dssat/Clover
+FAD // /home/ztz/dssat_kcb/dssat/Fallow
+FBD // /home/ztz/dssat_kcb/dssat/Fababean
+GBD // /home/ztz/dssat_kcb/dssat/GreenBean
+GWD // /home/ztz/dssat_kcb/dssat/Weeds
+LTD // /home/ztz/dssat_kcb/dssat/Lentil
+MLD // /home/ztz/dssat_kcb/dssat/Millet
+MZD // /home/ztz/dssat_kcb/dssat/Maize
+NND // /home/ztz/dssat_kcb/dssat/Banana
+NPD // /home/ztz/dssat_kcb/dssat/Napier
+OAD // /home/ztz/dssat_kcb/dssat/Oats
+PED // /home/ztz/dssat_kcb/dssat/Pea
+PID // /home/ztz/dssat_kcb/dssat/Pineapple
+PND // /home/ztz/dssat_kcb/dssat/Peanut
+POD // /home/ztz/dssat_kcb/dssat/PerennialPeanut
+PPD // /home/ztz/dssat_kcb/dssat/Pigeonpea
+PRD // /home/ztz/dssat_kcb/dssat/Pepper
+PTD // /home/ztz/dssat_kcb/dssat/Potato
+QUD // /home/ztz/dssat_kcb/dssat/Quinoa
+RID // /home/ztz/dssat_kcb/dssat/Rice
+RPD // /home/ztz/dssat_kcb/dssat/Rhizomapeanut
+SBD // /home/ztz/dssat_kcb/dssat/Soybean
+SCD // /home/ztz/dssat_kcb/dssat/Sugarcane
+SFD // /home/ztz/dssat_kcb/dssat/Safflower
+SGD // /home/ztz/dssat_kcb/dssat/Sorghum
+SSD // /home/ztz/dssat_kcb/dssat/
+SID // /home/ztz/dssat_kcb/dssat
+SUD // /home/ztz/dssat_kcb/dssat/Sunflower
+SWD // /home/ztz/dssat_kcb/dssat/SweetCorn
+TFD // /home/ztz/dssat_kcb/dssat/Teff
+TMD // /home/ztz/dssat_kcb/dssat/Tomato
+TND // /home/ztz/dssat_kcb/dssat/Tanier
+TRD // /home/ztz/dssat_kcb/dssat/Taro
+VBD // /home/ztz/dssat_kcb/dssat/Velvetbean
+VID // /home/ztz/dssat_kcb/dssat/
+WHD // /home/ztz/dssat_kcb/dssat/Wheat
+U1D // /home/ztz/dssat_kcb/dssat/CROP1
+U2D // /home/ztz/dssat_kcb/dssat/CROP2
 OTD // /
-ASD // /Seasonal
-AQD // /Sequence
-APD // /Spatial
-PSD // /Pest
-ECD // /Economic
+ASD // /home/ztz/dssat_kcb/dssat/Seasonal
+AQD // /home/ztz/dssat_kcb/dssat/Sequence
+APD // /home/ztz/dssat_kcb/dssat/Spatial
+PSD // /home/ztz/dssat_kcb/dssat/Pest
+ECD // /home/ztz/dssat_kcb/dssat/Economic
 TOD // /

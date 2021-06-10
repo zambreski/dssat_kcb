@@ -1,0 +1,30 @@
+*Soil Carbon Balance
+
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 10, 2021 14:49:00
+
+*RUN   1        : 20 IRRIG, light rate,freq MZCER047 KSRT2001    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED
+ DATA PATH      :
+ TREATMENT  1   : 20 IRRIG, light rate,freq MZCER047
+  
+
+!                                                 Initial               Final
+!                                                Year/DOY            Year/DOY
+!                                                2020-129            2020-129
+! SOIL C BALANCE                                 --------- kg[C]/ha ---------
+!  SOIL & SURFACE ORGANIC C
+!   Soil Organic C                              182825.00           181370.52
+!   Surface Organic C                                0.00                0.00
+!   Soil Litter C                                    0.00              161.95
+!   Surface Litter C                                 0.00                0.00
+!                                                --------            --------
+!   Total C in Soil and Surface Layers          182825.00           181532.47
+!  ADDITIONS AND REMOVALS:
+!   C in Harvest Residues from Previous              0.00
+!   C from Organic Applications                    400.00
+!   C in returned senesced material                401.58
+!   CO2-C emitted                                                     2094.10
+!                                                --------            --------
+! TOTAL C BALANCE                               183626.58           183626.56
+!   Balance                                                            -0.008

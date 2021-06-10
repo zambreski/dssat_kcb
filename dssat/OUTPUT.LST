@@ -2,6 +2,7 @@
 
 @FILENAME          DESCRIPTION
 ET.OUT             Daily soil-plant-atmosphere output file           
+MgmtOps.OUT        Daily management operations output file           
 PlantGro.OUT       Daily plant growth output file                    
 PlantN.OUT         Daily plant nitrogen output file                  
 SoilNi.OUT         Daily inorganic soil N output file                
@@ -12,6 +13,7 @@ Weather.OUT        Daily weather output file
 Mulch.OUT          Daily surface mulch output file                   
 N2O.OUT            Soil N2O and N2 daily emissions output            
 Evaluate.OUT       Evaluation output file (simulated vs. measured)   
+MgmtEvent.OUT      Management event output file                      
 OVERVIEW.OUT       Seasonal overview output file                     
 SoilCBal.OUT       Seasonal soil carbon balance                      
 SoilCBalSum.OUT    Soil C balance summary                            

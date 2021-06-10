@@ -128,7 +128,7 @@ C     The components are copied into local variables for use here.
         IF (ERR /= 0) CALL ERROR(ERRKEY,ERR,FILEIO,LNUM+3)
 
         REWIND (LUNIO)
-		PRINT *,LUNIO
+	
         READ (LUNIO,'(11(/),15X,A12,1X,A80)',IOSTAT=ERR) FILEW, PATHWTW
         IF (ERR /= 0) CALL ERROR(ERRKEY,ERR,FILEIO,12)
         CALL GETLUN('FILEW', LUNWTH)

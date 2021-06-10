@@ -352,7 +352,7 @@ C-----------------------------------------------------------------------
 !       There might be 2 weather files listed for yield forecast mode
           READ(LUNIO,'(A6,9X,A8)',IOSTAT=ERRNUM) FINDCH, FNAME
         ENDIF
-		PRINT *, FINDCH, FNAME
+	
         IF (ERRNUM .NE. 0) CALL ERROR (ERRKEY,ERRNUM,FILEIO,13)
         READ(LUNIO,400,IOSTAT=ERRNUM) NYRS, NREPS, YRSIM
         IF (ERRNUM .NE. 0) CALL ERROR (ERRKEY,ERRNUM,FILEIO,15)

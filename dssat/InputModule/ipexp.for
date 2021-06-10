@@ -463,7 +463,6 @@ C-----------------------------------------------------------------------
      &     LINEXP,AIRAMT,EFFIRR,CROP,FROP,MODEL,RNMODE,FILEX,
      &     CONTROL,ISWITCH,UseSimCtr,FILECTL,MODELARG,YRPLT)
 	 
-	 PRINT *,ISWITCH % IKCB
 
 C-----------------------------------------------------------------------
 C        Select crop parameter input file
@@ -477,7 +476,7 @@ C-----------------------------------------------------------------------
      &  !    (INDEX('IXM',MODEL(3:5)) .GT.0) .OR.  !IXIM MAIZE
      &  !    (INDEX('CSM',MODEL(3:5)) .GT.0)) THEN
            FILEC(1:12) = CROP//MODEL(3:8)//'.SPE'
-		   PRINT *,DSSATP,PATHCR,NAMEF
+		  
            INQUIRE (FILE = FILEC,EXIST = FEXIST)
            IF (.NOT. FEXIST) THEN
               CALL PATH('CRD',DSSATP,PATHCR,1,NAMEF)
@@ -797,9 +796,8 @@ C------------------------------------
 		
 		 IF (MEWTH .EQ. 'M' .OR. RNMODE .EQ. 'Y') THEN
 			FILEK = KCID//FILE_CHECK(5:8)//'.KCB'
-			PRINT *,FILEK
 			INQUIRE (FILE=FILEK, EXIST = FEXIST)
-			PRINT *,FEXIST
+			
 			
 		 ENDIF
 		 

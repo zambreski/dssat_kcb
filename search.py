@@ -39,7 +39,7 @@ if __name__== "__main__":
     # INPUTS #
     #--------#
     
-    rootdir = "C:/Users/ztz/github_projects/sharda_python_practice/travis/dssat_model/model_1/dssat-csm-os"
+    rootdir = "./dssat"
     
     for folder, dirs, files in os.walk(rootdir):
         for file in files:
@@ -47,6 +47,6 @@ if __name__== "__main__":
                 fullpath = os.path.join(folder, file)
                 with open(fullpath, 'r') as f:
                     for line in f:
-                        if "MODEL_NAME" in line:
+                        if "PRINT *" in line:
                             print(fullpath)
                             #break

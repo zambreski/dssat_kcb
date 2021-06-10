@@ -2,7 +2,7 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 10, 2021 13:42:50
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 10, 2021 14:49:00
 
 *RUN   1        : 20 IRRIG, light rate,freq          KSRT2001    1
 
@@ -15,3 +15,82 @@
  Y4KDOY - Weather file                                                         
  Not able to find 7-digits first weather date                                  
  Set simulation to 5-digits first weather date                                 
+
+ CSM     YEAR DOY = 2020 130
+ RNMODE = A                                                                    
+ PATHEX =                                                                      
+ FILEX  = KSRT2001.SBX                                                         
+ FILEB  =                                                                      
+ FILEIO = DSSAT47.INP                                                          
+ MODEL  = MZCER047                                                             
+ TRTNUM =     1                                                                
+
+ SOILDYN  YEAR DOY = 2020 130
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   ADCOEF                                                                      
+ These defaults may or may not be important to your results.                   
+
+ RETC  YEAR DOY = 2020 130
+ Soil RETC parameters:                                                         
+  LYR DS  SWCN   WCR    Hb Lambd  Alpha     m     n Texture                    
+   1   5  3.30 0.023  14.1 0.205  0.004 0.199 1.248 SiltyLoam                  
+   2  15  3.30 0.023  14.1 0.205  0.004 0.199 1.248 SiltyLoam                  
+   3  29  1.02 0.051  13.9 0.168  0.004 0.168 1.202 SiltClayLoam               
+   4  43  1.02 0.051  13.9 0.168  0.004 0.168 1.202 SiltClayLoam               
+   5  53  1.02 0.037   7.5 0.217  0.007 0.205 1.258 SiltClayLoam               
+   6  64  1.02 0.037   7.5 0.217  0.007 0.205 1.258 SiltClayLoam               
+   7 132  3.30 0.019   3.4 0.194  0.013 0.194 1.241 SiltyLoam                  
+   8 201  3.30 0.019   3.4 0.194  0.013 0.194 1.241 SiltyLoam                  
+
+ SOILDYN  YEAR DOY = 2020 130
+ Soil ID: KSFC000004                                                           
+   RICHFIELD SILT LOAM                                                         
+ -99                                                                           
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.60  61.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.202 0.414 0.488 1.000  1.25  2.05  24.0  58.0  18.0   7.2     
+   2  15    10 0.202 0.414 0.488 1.000  1.25  2.05  24.0  58.0  18.0   7.2     
+   3  29    14 0.263 0.454 0.517 0.560  1.18  1.55  39.0  49.0  12.0   7.5     
+   4  43    14 0.263 0.454 0.517 0.560  1.18  1.55  39.0  49.0  12.0   7.5     
+   5  53    10 0.190 0.388 0.522 0.343  1.18  0.70  29.0  66.0   5.0   7.5     
+   6  64    11 0.190 0.388 0.522 0.343  1.18  0.70  29.0  66.0   5.0   7.5     
+   7 132    68 0.168 0.332 0.506 0.071  1.23  0.45  26.0  53.0  21.0   8.4     
+   8 201    69 0.168 0.332 0.506 0.071  1.23  0.45  26.0  53.0  21.0   8.4     
+
+ SOILDYN  YEAR DOY = 2020 130
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  KSAT  SLCF                                            
+   L  Exch  Coef  kg/ha  cm/h     %                                            
+   1  19.0   0.0   1.60   3.3   0.0                                            
+   2  19.0   0.0   0.80   3.3   0.0                                            
+   3  30.0   0.0   0.61   1.0   0.0                                            
+   4  30.0   0.0   0.61   1.0   0.0                                            
+   5  20.0   0.0   0.85   1.0   0.0                                            
+   6  20.0   0.0   0.77   1.0   0.0                                            
+   7  17.0   0.0   0.12   3.3   0.0                                            
+   8  17.0   0.0   0.12   3.3   0.0                                            
+
+ IPWTH   YEAR DOY = 2020 130
+ ///home/ztz/dssat_kcb/dssat/Weather/RT012001.WTH                              
+ Found daily weather data headers for:                                         
+   SRAD           Col   7 -  11                                                
+   TMAX           Col  13 -  17                                                
+   TMIN           Col  19 -  23                                                
+   RAIN           Col  25 -  29                                                
+   DEWP           Col  31 -  35                                                
+   WIND           Col  37 -  41                                                
+   PAR            Col  43 -  47                                                
+   RHUM           Col  55 -  59                                                
+   RFET           Col  61 -  65                                                
+
+ CO2VAL  YEAR DOY = 2020 130
+  731 CO2 data points read from file.                                          
+ ///home/ztz/dssat_kcb/dssat/StandardData/CO2047.WDA                           
+
+ ENDRUN  YEAR DOY = 2020 277
+ Normal end of run        1                                                    

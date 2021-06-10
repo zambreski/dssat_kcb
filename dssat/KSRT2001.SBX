@@ -20,27 +20,22 @@
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    KCID
- 1 KSRT0001 RT01       -99     0 IB000     0     0 00000 -99    180  IBSB910015 RT08
+ 1 KSRT0001 RT01       -99     0 IB000     0     0 00000 -99    180  KSFC000004 RT01
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
  1           38.04         -101.03       896                 0     0     0     0   -99   -99
  
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    SB 20151   100   -99     1     1   -99   -99   -99   -99   -99   -99 -99
+ 1    MZ 00122   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
- 1     5  .086    .6   1.5
- 1    15  .086    .6   1.5
- 1    30  .086    .6   1.5
- 1    45  .086    .6   1.5
- 1    60  .086    .6   1.5
- 1    90  .076    .6    .6
- 1   120  .076    .6    .5
- 1   150   .13    .6    .5
- 1   180  .258    .6    .5
+ 1    15    .3    .1    .8
+ 1    43    .3    .1    .8
+ 1    64    .3    .1    .8
+ 1   201    .3    .1    .8
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 20151   -99  29.9  29.9     S     R    91     0     4   -99   -99   -99   -99   -99                        -99
+ 1 20151   -99   7.6   -99     S     R    76   -99     5   -99   -99   -99   -99   -99                        -99
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
@@ -67,6 +62,11 @@
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
  1 20166 RE001  1000    .8   -99   -99   -99    15   -99 -99
+ 
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 00139 FE005 AP002    10    10   -99   -99   -99   -99   -99 -99
+ 1 00164 FE005 AP002    10   255   -99   -99   -99   -99   -99 -99
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
@@ -76,9 +76,9 @@
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL 
  1 ME              M     M     E     F     S     L     R     1     G     S     2  
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
- 1 MA              R     R     R     R     M
+ 1 MA              R     A     R     R     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     Y     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN

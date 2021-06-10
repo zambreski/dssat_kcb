@@ -44,7 +44,7 @@ if __name__== "__main__":
     
     # Set True if want to build from scratch. Really only necessary if you 
     # REALLY MESS Something Up
-    FULLCLEAN = True
+    FULLCLEAN = False
 
 #%%--------------------------------------------------------------------------#
    
@@ -63,7 +63,7 @@ if __name__== "__main__":
         
         os.system('mkdir ./build')
         os.chdir('build')
-        os.system('cmake .. -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX= %s'%(FULL_DSSAT_PATH))
+        os.system('cmake .. -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=%s'%(FULL_DSSAT_PATH))
         #os.system('cmake .. -DCMAKE_BUILD_TYPE=RELEASE')
         
         # Edit the link.txt file to remove the paths

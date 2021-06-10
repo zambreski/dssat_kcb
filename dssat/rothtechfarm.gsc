@@ -1,13 +1,13 @@
 Geospatial Simulation Control (GSC) File
 
 *GSC1: ModelDirectory
-C:\Users\ztz\github_projects\sharda_python_practice\travis\dssat_model\model_1\dssat-csm-os
+C:\cygwin64\home\ztz\dssat_kcb\dssat
 
 *GSC2: BaseLayer
 Roth_Zones
 
 *GSC3: TemplateFile,InputFile
-UFGA7801.SBX.gst,UFGA7801.SBX
+KSRT2001.SBX.gst,KSRT2001.SBX
 
 *GSC4: InputAttribute,Code
 ID_2,#N

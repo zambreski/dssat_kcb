@@ -18,7 +18,7 @@
       END TYPE VersionType
       TYPE (VersionType) Version
 !     CMake no longer able to change the branch name, do it manually.      
-!     CHARACTER(len=*), PARAMETER :: VBranch = '-'
+!     CHARACTER(len=*), PARAMETER :: VBranch = '-main'
       CHARACTER(len=*), PARAMETER :: VBranch = '-develop'
 
 !     Version history:  

@@ -650,7 +650,7 @@ C    Select Model Name and Path -- order of priority:
 C-----------------------------------------------------------------------
 !     First check model name from FILEX
       TRY_MODEL = CRMODEL
-	  PRINT *,DSSATP
+
       CALL MODEL_NAME (CROP, DSSATP, TRY_MODEL, MODEL)
 
 !     If FILEX model name was not acceptable, then try the 

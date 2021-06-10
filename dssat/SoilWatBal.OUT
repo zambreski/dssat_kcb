@@ -1,0 +1,32 @@
+*WATER BALANCE OUTPUT FILE
+
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 10, 2021 14:49:00
+
+*RUN   1        : 20 IRRIG, light rate,freq MZCER047 KSRT2001    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED
+ DATA PATH      :
+ TREATMENT  1   : 20 IRRIG, light rate,freq MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2020/130    603.00
+!     Soil H20 (final) on Year/day 2020/277    673.66
+!     Effective Irrigation                      71.15
+!     Precipitation                            225.20
+!     Water added with new mulch                 0.00
+!     Drainage                                   0.00
+!     Tiledrain flow                             0.00
+!     Runoff                                     2.84
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         222.85
+!     Transpiration                              0.00
+!     Potential ET                             939.86
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.007
+

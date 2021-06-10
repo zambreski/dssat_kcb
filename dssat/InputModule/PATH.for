@@ -216,7 +216,6 @@ C=======================================================================
       PARAMETER (ERRKEY = 'MODELN')
 !      PARAMETER (EXE_STRING = 'EXE')
 
-	 PRINT *, CROP,CRMODEL
 
       IF (LENSTRING(CRMODEL) > 0) THEN
         DO I = 1,8
