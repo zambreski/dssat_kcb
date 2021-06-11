@@ -21,8 +21,6 @@ Created on Wed May  5 14:30:45 2021
 # LIBRARIES IMPORTED #
 #--------------------#
 
-import matplotlib.pyplot as plt
-import numpy as np
 import os
 
 #------------------------#

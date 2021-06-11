@@ -24,8 +24,7 @@
 		CHARACTER*30 FILEIO
 		REAL KCB
 		PARAMETER (ERRKEY = 'IPKCB ')
-		
-		
+	
 		TYPE (ControlType) CONTROL
 		
 		LUNIO  = CONTROL % LUNIO
@@ -54,7 +53,7 @@
 		 
 		! Look for the header line
 		CALL IGNORE2 (LUNKCB, LINKCB, ISECT, LINE)
-		
+
 		DO WHILE (.TRUE.)   !.NOT. EOF(LUNWTH)
           CALL IGNORE2 (LUNKCB, LINKCB, ISECT, LINE)
           SELECT CASE(ISECT)
@@ -73,12 +72,15 @@
 		! starting with simulation start date and ending at end 
 		! of file or at MaxRecords # of records
 		
+		
 		DO WHILE (.TRUE.)   !.NOT. EOF(LUNWTH)
 			CALL IGNORE(LUNKCB,LINKCB,FOUND,LINE)		
 			IF (FOUND == 1) THEN
 		
 				READ(LINE,'(I5)',IOSTAT=ERR)   YRDOYW
 				READ(LINE(C1:C2),*,IOSTAT=ERR) KCB
+				
+
 				
 				IF (ERR .NE. 0) KCB = -99.
 				

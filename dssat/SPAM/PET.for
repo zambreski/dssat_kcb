@@ -571,7 +571,8 @@ C   KJB LATER, NEED TO PUT VARIABLE IN PLACE OF 1.1
 		CASE DEFAULT         ! As originally written
 			KC=1.0+(EORATIO-1.0)*XHLAI/6.0
 	  END SELECT
-      
+	  
+     
 	  EO=ET0*KC
 C     EO=ET0
         EO = MAX(EO,0.0)

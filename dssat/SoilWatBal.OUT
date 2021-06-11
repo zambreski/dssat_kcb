@@ -1,32 +1,94 @@
 *WATER BALANCE OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 10, 2021 14:49:00
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 11, 2021 16:21:59
 
-*RUN   1        : 20 IRRIG, light rate,freq MZCER047 KSRT2001    1
+*RUN   1        : 20 IRRIG, PETPEN NO KCB.. MZCER047 KSRT2001    1
  MODEL          : MZCER047 - Maize
  EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED
  DATA PATH      :
- TREATMENT  1   : 20 IRRIG, light rate,freq MZCER047
+ TREATMENT  1   : 20 IRRIG, PETPEN NO KCB.. MZCER047
   
 
 !     WATER BALANCE PARAMETERS
 !     ========================                 --mm--
 
-!     Soil H20 (start) on Year/day 2020/130    603.00
-!     Soil H20 (final) on Year/day 2020/277    673.66
-!     Effective Irrigation                      71.15
-!     Precipitation                            225.20
+!     Soil H20 (start) on Year/day 2020/106    603.00
+!     Soil H20 (final) on Year/day 2020/277    590.62
+!     Effective Irrigation                     347.38
+!     Precipitation                            228.80
 !     Water added with new mulch                 0.00
 !     Drainage                                   0.00
 !     Tiledrain flow                             0.00
-!     Runoff                                     2.84
+!     Runoff                                     5.20
 !     Mulch evaporation                          0.00
-!     Soil Evaporation                         222.85
-!     Transpiration                              0.00
-!     Potential ET                             939.86
+!     Soil Evaporation                         215.02
+!     Transpiration                            368.33
+!     Potential ET                            1093.17
 
 !     Initial mulch water content                0.00
 !     Final mulch water content                  0.00
 
-!     Final Balance                             0.007
+!     Final Balance                             0.003
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 11, 2021 16:21:59
+
+*RUN   2        : 20 IRRIG, PETPEN KCB..... MZCER047 KSRT2001    2
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED
+ DATA PATH      :
+ TREATMENT  2   : 20 IRRIG, PETPEN KCB..... MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2020/106    603.00
+!     Soil H20 (final) on Year/day 2020/277    668.93
+!     Effective Irrigation                     258.80
+!     Precipitation                            228.80
+!     Water added with new mulch                 0.00
+!     Drainage                                   0.00
+!     Tiledrain flow                             0.00
+!     Runoff                                     5.50
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         133.95
+!     Transpiration                            282.22
+!     Potential ET                             413.66
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.004
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 11, 2021 16:21:59
+
+*RUN   3        : 20 IRRIG, ASCE SHORT..... MZCER047 KSRT2001    3
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED
+ DATA PATH      :
+ TREATMENT  3   : 20 IRRIG, ASCE SHORT..... MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2020/106    603.00
+!     Soil H20 (final) on Year/day 2020/277    617.03
+!     Effective Irrigation                     442.25
+!     Precipitation                            228.80
+!     Water added with new mulch                 0.00
+!     Drainage                                   0.00
+!     Tiledrain flow                             0.00
+!     Runoff                                     2.82
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         235.06
+!     Transpiration                            419.15
+!     Potential ET                            1345.50
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                            -0.007
 

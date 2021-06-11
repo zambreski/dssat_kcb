@@ -1,21 +1,67 @@
 *MANAGEMENT OPERATIONS EVENT SUMMARY
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 10, 2021 14:49:00
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 11, 2021 16:21:59
 !---------------------------------------------------------------------------------------------
 @RUN Date........  DOY    DAS    DAP  CR  Stage         Operation       Quantities
 !---------------------------------------------------------------------------------------------
-   1 MAY  9, 2020  130      1      0  MZ  14 Start Sim 
-   1 MAY 30, 2020  151     22      0  MZ                Planting       
-   1 MAY 30, 2020  151     22      0  MZ  07 Sowing    
-   1 MAY 30, 2020  151     22      0  MZ                Irrigation        94.9 mm
-   1 MAY 31, 2020  152     23      1  MZ  08 Germinate 
-   1 JUN  4, 2020  156     27      5  MZ  09 Emergence 
-   1 JUN 14, 2020  166     37     15  MZ                Organic matter    1000 kg[DM]/ha
-   1 JUN 16, 2020  168     39     17  MZ  01 End Juveni
-   1 JUN 23, 2020  175     46     24  MZ  02 Floral Ini
-   1 JUL 28, 2020  210     81     59  MZ  03 75% Silkin
-   1 AUG  8, 2020  221     92     70  MZ  04 Beg Gr Fil
-   1 SEP 27, 2020  271    142    120  MZ  05 End Gr Fil
-   1 OCT  3, 2020  277    148    126  MZ  16 Harvest   
-   1 OCT  3, 2020  277    148    126  MZ                Harvest Yield    7239. kg/ha
+   1 APR 15, 2020  106      1      0  MZ  14 Start Sim 
+   1 MAY 30, 2020  151     46      0  MZ                Planting       
+   1 MAY 30, 2020  151     46      0  MZ  07 Sowing    
+   1 MAY 31, 2020  152     47      1  MZ  08 Germinate 
+   1 JUN  4, 2020  156     51      5  MZ  09 Emergence 
+   1 JUN 16, 2020  168     63     17  MZ  01 End Juveni
+   1 JUN 17, 2020  169     64     18  MZ                Irrigation       114.6 mm
+   1 JUN 23, 2020  175     70     24  MZ  02 Floral Ini
+   1 JUL  3, 2020  185     80     34  MZ                Irrigation       115.0 mm
+   1 JUL 17, 2020  199     94     48  MZ                Irrigation       116.1 mm
+   1 JUL 28, 2020  210    105     59  MZ  03 75% Silkin
+   1 AUG  8, 2020  221    116     70  MZ  04 Beg Gr Fil
+   1 AUG 21, 2020  234    129     83  MZ                Irrigation       117.3 mm
+   1 SEP 27, 2020  271    166    120  MZ  05 End Gr Fil
+   1 OCT  3, 2020  277    172    126  MZ  16 Harvest   
+   1 OCT  3, 2020  277    172    126  MZ                Harvest Yield    7973. kg/ha
+ 
+
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 11, 2021 16:21:59
+!---------------------------------------------------------------------------------------------
+@RUN Date........  DOY    DAS    DAP  CR  Stage         Operation       Quantities
+!---------------------------------------------------------------------------------------------
+   2 APR 15, 2020  106      1      0  MZ  14 Start Sim 
+   2 MAY 30, 2020  151     46      0  MZ                Planting       
+   2 MAY 30, 2020  151     46      0  MZ  07 Sowing    
+   2 MAY 31, 2020  152     47      1  MZ  08 Germinate 
+   2 JUN  4, 2020  156     51      5  MZ  09 Emergence 
+   2 JUN 16, 2020  168     63     17  MZ  01 End Juveni
+   2 JUN 23, 2020  175     70     24  MZ  02 Floral Ini
+   2 JUL  8, 2020  190     85     39  MZ                Irrigation       114.6 mm
+   2 JUL 26, 2020  208    103     57  MZ                Irrigation       115.1 mm
+   2 JUL 28, 2020  210    105     59  MZ  03 75% Silkin
+   2 AUG  8, 2020  221    116     70  MZ  04 Beg Gr Fil
+   2 AUG 22, 2020  235    130     84  MZ                Irrigation       115.3 mm
+   2 SEP 27, 2020  271    166    120  MZ  05 End Gr Fil
+   2 OCT  3, 2020  277    172    126  MZ  16 Harvest   
+   2 OCT  3, 2020  277    172    126  MZ                Harvest Yield    7176. kg/ha
+ 
+
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 11, 2021 16:21:59
+!---------------------------------------------------------------------------------------------
+@RUN Date........  DOY    DAS    DAP  CR  Stage         Operation       Quantities
+!---------------------------------------------------------------------------------------------
+   3 APR 15, 2020  106      1      0  MZ  14 Start Sim 
+   3 MAY 30, 2020  151     46      0  MZ                Planting       
+   3 MAY 30, 2020  151     46      0  MZ  07 Sowing    
+   3 MAY 31, 2020  152     47      1  MZ  08 Germinate 
+   3 JUN  4, 2020  156     51      5  MZ  09 Emergence 
+   3 JUN 16, 2020  168     63     17  MZ  01 End Juveni
+   3 JUN 17, 2020  169     64     18  MZ                Irrigation       115.8 mm
+   3 JUN 23, 2020  175     70     24  MZ  02 Floral Ini
+   3 JUL  2, 2020  184     79     33  MZ                Irrigation       117.3 mm
+   3 JUL 14, 2020  196     91     45  MZ                Irrigation       121.6 mm
+   3 JUL 28, 2020  210    105     59  MZ  03 75% Silkin
+   3 AUG  8, 2020  221    116     70  MZ  04 Beg Gr Fil
+   3 AUG 12, 2020  225    120     74  MZ                Irrigation       120.3 mm
+   3 AUG 28, 2020  241    136     90  MZ                Irrigation       114.5 mm
+   3 SEP 27, 2020  271    166    120  MZ  05 End Gr Fil
+   3 OCT  3, 2020  277    172    126  MZ  16 Harvest   
+   3 OCT  3, 2020  277    172    126  MZ                Harvest Yield    8005. kg/ha
  

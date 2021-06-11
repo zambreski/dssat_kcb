@@ -171,6 +171,18 @@ C     The components are copied into local variables for use here.
 !          NRecords = 0
           LastWeatherDay  = 0
         ENDIF
+		
+		! READ in KCB values here at simulation beginning
+		IKCB   = ISWITCH % IKCB       ! ZAMBRESKI 2021
+		PRINT *,IKCB
+		IF (IKCB .EQ. 'Y') THEN
+		   CALL READ_KCB(CONTROL,YRDOY_A,KCB_A) 
+		ELSE 
+		 KCB_A = -99
+		ENDIF
+		
+		
+		
       ENDIF
 
 !***********************************************************************
@@ -537,10 +549,8 @@ C       Substitute default values if REFHT or WINDHT are missing.
      &    TMIN_A, VAPR_A, WINDSP_A, YRDOY_A, YREND,ETO_A)                                          !Output
         IF (ErrCode > 0) RETURN 
       
-	  IKCB   = ISWITCH % IKCB       ! ZAMBRESKI 2021
-	  IF (IKCB .EQ. 'Y') THEN
-		   CALL READ_KCB(CONTROL,YRDOY_A,KCB_A) 
-	  ENDIF
+	  
+	  
 	  
 	  ENDIF
 	  
@@ -581,6 +591,7 @@ C       Substitute default values if REFHT or WINDHT are missing.
 	  ETO   = ETO_A(I)
 	  
 	  KCB   = KCB_A(I)
+	  
 	  
 !     Error checking
       CALL DailyWeatherCheck(CONTROL,
@@ -758,8 +769,7 @@ C         Read in weather file header.
         DCO2   = DCO2_A(I)
         OZON7  = OZON7_A(I)
 		ETO    = ETO_A(I)
-		
-		
+
 		CALL PUT('SPAM', 'KCB', KCB_A(I))
 
         LastRec = I

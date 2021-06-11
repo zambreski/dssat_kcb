@@ -638,6 +638,8 @@ install(DIRECTORY Data/ DESTINATION .
 # Resume information about flags and option used #
 ##################################################
 
+set(CMAKE_EXE_LINKER_FLAGS "-Wl,--enable-auto-import ")
+
 message( "-- Flags" )
 message( "   FFLAGS       ${CMAKE_Fortran_FLAGS}" )
 message( "   RELEASE      ${CMAKE_Fortran_FLAGS_RELEASE}" )
@@ -648,3 +650,4 @@ message( "   BUILD TYPE   ${CMAKE_BUILD_TYPE}" )
 message( "   VERSION      ${MAJOR}.${MINOR}.${MODEL}.${BUILD}" )
 message( "   I. PREFIX    ${CMAKE_INSTALL_PREFIX}" )
 message( "   Executable   ${EXECUTABLE_NAME}" )
+
