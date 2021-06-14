@@ -34,7 +34,7 @@ KCB description: Set KCB to 'Y' (Yes) to tell DSSAT to look for KCB files. The d
 
 ## Compilation ##
 
-Users should follow the steps outlined in the original DSSAT repository (see above) to compile the source code into an executable application that can be call on the command line on their system. It is important to note that new lines were added in CMakeLists.txt file to account for new fortran files added and to remove certain link flags. Users should examine this file and make appropriate modifications that might be necessary for comipiling on their computer architecture.  
+Users should follow the steps outlined in the original DSSAT repository (see above) to compile the source code into an executable application that can be called on the command line. It is important to note that new lines were added in CMakeLists.txt file to account for new fortran files added and to remove certain link flags. Users should examine this file and make appropriate modifications that might be necessary for comipiling on their computer architecture.  
 
 ## Contacts ##
 
