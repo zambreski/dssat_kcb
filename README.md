@@ -19,5 +19,5 @@ The control file modifications are under the *FIELDS and *SIMULATION CONTROL sec
 
 ### Contacts
 
-Head researchers: Travis Wiederstein and Vaishali Sharda
+Head researchers: Travis Wiederstein and Vaishali Sharda </br>
 Coder: Zachary Zambreski
