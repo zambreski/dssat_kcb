@@ -35,7 +35,7 @@ KCB description: Set KCB to 'Y' (Yes) to tell DSSAT to look for KCB files. The d
 
 Users should follow the steps outlined in the original DSSAT repository (see above) to compile the source code into an executable that can be used on his/her/their system.
 
-#### Contacts
+## Contacts ##
 
 Head researchers: Travis Wiederstein and Vaishali Sharda </br>
 Coder: Zachary Zambreski
