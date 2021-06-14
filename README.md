@@ -6,7 +6,7 @@ For the original source code, users are encourage to visit the corresponding git
 
 Python files included were to facillitate the compilation process and any post-processing.
 
-## Modification description
+### Modification description
 
 In the control file, there are new options described below that inform DSSAT whether it should look for forcing KCB files. The user is encouraged to study the control file (KSRT2001.SBX) provided as example in this respository. If these files do not exist, an error will be thrown. </br>
 
@@ -31,7 +31,7 @@ In this example, the file name should be RT082001.KCB. The characters after the 
 KCB description: Set KCB to 'Y' (Yes) to tell DSSAT to look for KCB files. The default value is "N" (No). 
 </pre>
 
-### Contacts
+#### Contacts
 
 Head researchers: Travis Wiederstein and Vaishali Sharda </br>
 Coder: Zachary Zambreski
