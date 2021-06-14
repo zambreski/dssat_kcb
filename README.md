@@ -4,7 +4,7 @@ This repository contains source code for running DSSAT version 4.7 with daily ba
 
 ## Main modifications
 
-In the control file, there are new options to be read to tell DSSAT whether it should look for forcing KCB files. The user is encouraged to study the control file (KSRT2001.SBX) provided as example in this respository. </br>
+In the control file, there are new options described below that inform DSSAT whether it should look for forcing KCB files. The user is encouraged to study the control file (KSRT2001.SBX) provided as example in this respository. If these files do not exist, an error will be thrown. </br>
 
 The control file modifications are under the *FIELDS and *SIMULATION CONTROL sections.
 
