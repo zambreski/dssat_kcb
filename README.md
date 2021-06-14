@@ -3,8 +3,7 @@ DSSAT cropping systems model: KCB option
 
 The Decision Support System for Agrotechnology Transfer (DSSAT): KCB option (DSDAT_KCB) allows users to use daily basal crop coefficients (KCB) from forcing files in the caclulation of potential evapotranspiration. These coefficients were observed at the field-level using remote imagery. The forcing files mimic the structure of the weather files given that the temporal frequencies are the same. These forced values are currently only used when EVAP is set to "F" (FAO-56) or "O" (observed reference ET included in the weather files). </br>
 
-For the original source code, users are encourage to visit the corresponding github repositiory: https://github.com/DSSAT/dssat-csm-os. 
-</br>Compilation of source code follows similar steps </br>
+For the original source code, users are encourage to visit the corresponding github repositiory: https://github.com/DSSAT/dssat-csm-os.  </br>
 
 Python files included were to facillitate the compilation process and any post-processing. </br>
 
@@ -32,7 +31,11 @@ In this example, the file name should be RT082001.KCB. The characters after the 
 KCB description: Set KCB to 'Y' (Yes) to tell DSSAT to look for KCB files. The default value is "N" (No). 
 </pre>
 
-#### Contacts
+## Compilation ##
+
+Users should follow the steps outlined in the original DSSAT repository (see above) to compile the source code into an executable that can be used on his/her/their system.
+
+## Contacts ##
 
 Head researchers: Travis Wiederstein and Vaishali Sharda </br>
 Coder: Zachary Zambreski
