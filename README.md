@@ -19,7 +19,7 @@ KCID description: 4 letter prefix that points to the file. These files must have
 <pre>
 *SIMULATION CONTROLS 
 ...
-@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2   KCB <br/>
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2   KCB 
  1 OP              Y     Y     Y     N     N     N     N     Y     M     N </br>
  
 KCB description: Set KCB to 'Y' (Yes) to tell DSSAT to look for KCB files. 
