@@ -9,12 +9,12 @@ In the control file, there are new options to be read to tell DSSAT whether it s
 The control file modifications are under the *FIELDS and *SIMULATION CONTROL sections.
 
 -------
-
+<pre>
 *FIELDS <br/>
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    *KCID* </br>
 
 KCID description: 4 letter prefix that points to the file. These files must have extension ***.KCB
-
+</pre>
 -------
 
 *SIMULATION CONTROLS <br/>
