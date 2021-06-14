@@ -10,15 +10,15 @@ The control file modifications are under the *FIELDS and *SIMULATION CONTROL sec
 
 -------
 <pre>
-*FIELDS <br/>
+*FIELDS 
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    *KCID* </br>
 
 KCID description: 4 letter prefix that points to the file. These files must have extension ***.KCB
 </pre>
 -------
 <pre>
-*SIMULATION CONTROLS <br/>
-...</br>
+*SIMULATION CONTROLS 
+...
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2   KCB <br/>
  1 OP              Y     Y     Y     N     N     N     N     Y     M     N </br>
  
