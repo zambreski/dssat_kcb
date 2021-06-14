@@ -13,7 +13,8 @@ The control file modifications are under the *FIELDS and *SIMULATION CONTROL sec
 *FIELDS 
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    *KCID*
  1 KSRT0001 RT01       -99     0 IB000     0     0 00000 -99    180  KSFC000004 RT08 </br>
-KCID description: 4 letter prefix that points to the file. These files must have extension ***.KCB
+KCID description: 4 letter prefix that points to the file. These files must have extension KCB. In this example, the file name shouldbe RT082001.KCB. The characters after the first four match the weather file.
+
 </pre>
 -------
 <pre>
