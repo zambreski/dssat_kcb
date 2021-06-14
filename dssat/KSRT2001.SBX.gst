@@ -1,149 +1,95 @@
 Geospatial Simulation Template (GST) File
-*EXP.DETAILS: UFGA2001SB BRAGG, IRRIGATED & NON-IRRIGATED
+*EXP.DETAILS: ROTH TECH FARM 2020 KS, IRRIGATED 
 
 *GENERAL
 @PEOPLE
- BOOTE,K.J. JONES,J.W. HAMMOND,L.C.
+ WEIDENSTEIN,T. , SHARDA, V., ZAMBRESKI Z.
 @ADDRESS
- UNIVERSITY OF FLORIDA, GAINESVILLE, FL, USA
+ KANSAS STATE UNIVERSITY, MANHATTAN, KS, USA
 @SITE
- IRR.PARK,UF.CAMPUS 29.63;-82.37;40.;FLA
+ ROTH TECH EXP FARM; 38.04;-101.04; SW KANSAS
 @ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
     -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 1 0 20 IRRIG, light rate,freq  1  1  0  1  1  1  0  1  0  0  0  0  1
- 2 1 1 0 20 RAINFED BRAGG           1  1  0  1  1  0  0  1  0  0  0  0  1
+ 1 1 1 0 20 IRRIG, PETPEN NO KCB..  1  1  0  1  1  1  0  1  0  0  0  0  1
+ 2 1 1 0 20 IRRIG, PETPEN KCB.....  1  1  0  1  1  1  0  1  0  0  0  0  2
+ 3 1 1 0 20 IRRIG, ASCE SHORT.....  1  1  0  1  1  1  0  1  0  0  0  0  3
 
 *CULTIVARS
 @C CR INGENO CNAME
- 1 SB IB0001 CORNL281
+ 1 MZ IB1066 PIO 3489
 
 *FIELDS
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    KCID
- 1 UFGA0001 RT01       -99     0 IB000     0     0 00000 -99    180  IBSB910015 RT#N
+ 1 KSRT0001 RT01       -99     0 IB000     0     0 00000 -99    180  KSFC000004 RT#N
 @L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
- 1           29.63          -82.37        40                 0     0     0     0   -99   -99
+ 1           38.04         -101.03       896                 0     0     0     0   -99   -99
  
 *INITIAL CONDITIONS
 @C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
- 1    SB 20155   100   -99     1     1   -99   -99   -99   -99   -99   -99 -99
+ 1    MZ 00151   -99   -99     1     1   -99   -99   -99   -99   -99   -99 -99
 @C  ICBL  SH2O  SNH4  SNO3
- 1     5  .086    .6   1.5
- 1    15  .086    .6   1.5
- 1    30  .086    .6   1.5
- 1    45  .086    .6   1.5
- 1    60  .086    .6   1.5
- 1    90  .076    .6    .6
- 1   120  .076    .6    .5
- 1   150   .13    .6    .5
- 1   180  .258    .6    .5
+ 1    15    .3    .1    .8
+ 1    43    .3    .1    .8
+ 1    64    .3    .1    .8
+ 1   201    .3    .1    .8
 
 *PLANTING DETAILS
 @P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
- 1 20155   -99  29.9  29.9     S     R    91     0     4   -99   -99   -99   -99   -99                        -99
+ 1 20151   -99   7.6   -99     S     R    76   -99     5   -99   -99   -99   -99   -99                        -99
+ 
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 20247 GS000   -99   -99   -99   -99 Maize
 
 *IRRIGATION AND WATER MANAGEMENT
 @I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
  1   .75   -99   -99   -99   -99   -99   -99 -99
 @I IDATE  IROP IRVAL
- 1 20167 IR001     8
- 1 20170 IR001     8
- 1 20181 IR001    13
- 1 20230 IR001    13
- 1 20235 IR001    13
- 1 20237 IR001    13
- 1 20240 IR001    11
- 1 20242 IR001    11
- 1 20244 IR001    11
- 1 20246 IR001    11
- 1 20250 IR001    11
- 1 20253 IR001    11
- 1 20256 IR001     8
- 1 20259 IR001     8
- 1 20262 IR001     8
- 1 20265 IR001     8
- 1 20269 IR001     7
-@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
- 3   .75   -99   -99   -99   -99   -99   -99 -99
-@I IDATE  IROP IRVAL
- 3 20167 IR001     8
- 3 20170 IR001     8
- 3 20181 IR001    13
- 3 20230 IR001    19
- 3 20235 IR001    19
- 3 20238 IR001    13
- 3 20240 IR001    11
- 3 20242 IR001    15
- 3 20246 IR001    15
- 3 20250 IR001    15
- 3 20253 IR001    11
- 3 20256 IR001    13
- 3 20260 IR001    11
- 3 20263 IR001    11
- 3 20266 IR001    13
- 3 20270 IR001    11
-@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
- 4   .75   -99   -99   -99   -99   -99   -99 -99
-@I IDATE  IROP IRVAL
- 4 20167 IR001     8
- 4 20170 IR001     8
- 4 20181 IR001    13
- 4 20240 IR001    11
- 4 20242 IR001    11
- 4 20246 IR001    15
- 4 20251 IR001    15
- 4 20256 IR001     8
- 4 20259 IR001    11
- 4 20264 IR001    13
- 4 20269 IR001    13
- 4 20279 IR001    11
- 4 20284 IR001    13
-@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
- 5   .75   -99   -99   -99   -99   -99   -99 -99
-@I IDATE  IROP IRVAL
- 5 20167 IR001     8
- 5 20170 IR001     8
- 5 20181 IR001    13
- 5 20230 IR001    13
- 5 20235 IR001    13
- 5 20237 IR001    13
- 5 20242 IR001    11
- 5 20244 IR001    17
- 5 20248 IR001    12
- 5 20251 IR001    15
- 5 20256 IR001    13
- 5 20260 IR001    11
- 5 20263 IR001    11
- 5 20266 IR001     8
- 5 20270 IR001     7
- 5 20277 IR001     8
- 5 20283 IR001    12
- 5 20285 IR001    13
- 5 20294 IR001    10
+ 1 20148 IR004    25
+ 1 20158 IR004    25
+ 1 20167 IR004    25
+ 1 20174 IR004    25
+ 1 20181 IR004    25
+ 1 20230 IR004    25
+ 1 20237 IR004    25
+ 1 20244 IR004    25
+ 1 20251 IR004    25
+ 1 20259 IR004    25
+ 1 20265 IR004    25
 
 *RESIDUES AND ORGANIC FERTILIZER
 @R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
  1 20166 RE001  1000    .8   -99   -99   -99    15   -99 -99
+ 
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 00139 FE005 AP002    10    10   -99   -99   -99   -99   -99 -99
+ 1 00164 FE005 AP002    10   255   -99   -99   -99   -99   -99 -99
+ 
+*CHEMICAL APPLICATIONS
+@C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
+ 1 20150   -99   -99   -99   -99   -99  -99
 
 *SIMULATION CONTROLS
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 1 GE              1     1     S 20155  2150 BRAGG, IRRIGATED & NON-I
+ 1 GE              1     1     S 20106  2150 ROTH TECH FARM SIMULATION 2020
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2   KCB
- 1 OP              Y     Y     Y     N     N     N     N     Y     M     Y
+ 1 OP              Y     Y     Y     N     N     N     N     Y     M     N
 @N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL 
  1 ME              M     M     E     F     S     L     R     1     G     S     2  
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
- 1 MA              R     R     R     R     M
+ 1 MA              R     R     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     Y     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
  1 PL          20155 20160    40   100    30    40    10
 @N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
- 1 IR             30    70   100 IB001 IB001    10   .75
+ 1 IR            120    50   100 IB004 IB004    25   .75
 @N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
  1 NI             30    50    25 IB001 IB001
 @N RESIDUES    RIPCN RTIME RIDEP
@@ -152,27 +98,50 @@ Geospatial Simulation Template (GST) File
  1 HA              0 20280   100     0
 
 @N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
- 2 GE              1     1     S 20155  2150 sEULEMAN
-@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2  KCB
- 2 OP              Y     Y     Y     N     N     N     N     Y     M    Y
-@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
- 2 ME              M     M     E     F     S     L     R     1     G     S     2
+ 2 GE              1     1     S 20106  2150 ROTH TECH FARM SIMULATION 2020
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2   KCB
+ 2 OP              Y     Y     Y     N     N     N     N     Y     M     Y
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL 
+ 2 ME              M     M     E     F     S     L     R     1     G     S     2  
 @N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
- 2 MA              R     R     R     R     M
+ 2 MA              R     R     R     N     M
 @N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
- 2 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N     A
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     Y     A
 
 @  AUTOMATIC MANAGEMENT
 @N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
  2 PL          20155 20160    40   100    30    40    10
 @N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
- 2 IR             30    70   100 IB001 IB001    10   .75
+ 2 IR            120    50   100 IB004 IB004    25   .75
 @N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
  2 NI             30    50    25 IB001 IB001
 @N RESIDUES    RIPCN RTIME RIDEP
  2 RE            100     1    20
 @N HARVEST     HFRST HLAST HPCNP HPCNR
  2 HA              0 20280   100     0
+ 
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 3 GE              1     1     S 20106  2150 ROTH TECH FARM SIMULATION 2020
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2   KCB
+ 3 OP              Y     Y     Y     N     N     N     N     Y     M     N
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL 
+ 3 ME              M     M     E     S     S     L     R     1     G     S     2  
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 3 MA              R     R     R     N     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 3 PL          20155 20160    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 3 IR            120    50   100 IB004 IB004    25   .75
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 3 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 3 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 3 HA              0 20280   100     0
 
 
 

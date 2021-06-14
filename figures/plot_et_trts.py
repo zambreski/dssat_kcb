@@ -45,7 +45,9 @@ if __name__== "__main__":
     iFile = "ET.OUT"
   
     # dssat output variable to plot
-    var2get = 'EOPA'
+    var2get = 'KCBA'
+    
+    simN = 172
 
 #%%---------------------------------------------------------------------------#
     #--------------#
@@ -57,11 +59,13 @@ if __name__== "__main__":
     # Get rows 
     tInfo = {}
     
-    eStarts = []; c= 0
+    eStarts = []; c= 0;names = []; 
     lines= open(inFile,'r').readlines()
     for line in lines:
         if line[:4] == '*RUN':
             eStarts.append(c)
+            names.append(line[20:44])
+      
         c+=1
   
     # Load the .OSU file using fixed width
@@ -70,11 +74,12 @@ if __name__== "__main__":
     out = pd.DataFrame(columns = ['TRT', 'DOY',var2get])
     rSK = 8
     for n,s in enumerate(eStarts):
-        inDSSAT = pd.read_fwf(inFile,skiprows = s +rSK,nrows= 160,header=0)
+        inDSSAT = pd.read_fwf(inFile,skiprows = s +rSK,nrows= simN,header=0)
         inDSSAT['TRT'] = n +1
         out = out.append(inDSSAT[['TRT', 'DOY',var2get]])
     
     out = out.set_index('TRT')
+    
 #%%---------------------------------------------------------------------------#
     #----------- ---#
     # Create figure #
@@ -97,7 +102,7 @@ if __name__== "__main__":
         x = sub['DOY']
         y = sub[var2get]
         ax.plot(x,y,color = colors[t],marker= '.',markerfacecolor = 'white',markersize=10,
-            markeredgecolor = colors[t],label = trt)
+            markeredgecolor = colors[t],label = names[t])
     
     # Plot fine-tuning. Change options such as axis labels, colors, background 
     # colors, font style, etc. There are thousands of different settings in
@@ -110,4 +115,10 @@ if __name__== "__main__":
     ax.set_facecolor('gainsboro')
     ax.set_xlabel('DOY',fontweight='bold')
     ax.set_ylabel(var2get,fontweight = 'bold')
+    
+    ax.legend()
+    
+    fig.savefig('./figures/{}.png'.format(var2get),dpi = 500)
+    
+    
     

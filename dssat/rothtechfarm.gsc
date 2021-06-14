@@ -16,7 +16,9 @@ ID_2,#N
 Summary.OUT.gsi,Summary.OUT
 
 *GSC6: OutputAttribute,Type
-HWAZ,Real(5.1)
+HWAH,Integer(4)
+ETCM,Integer(3)
+EPCM,Integer(3)
 
 *GSC7: CommandLine
-dscsm047.exe A UFGA7801.SBX
+dscsm047.exe A KSRT2001.SBX

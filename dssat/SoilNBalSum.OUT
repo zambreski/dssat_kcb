@@ -1,12 +1,12 @@
 
 *SOIL N BALANCE - CENTURY ROUTINES
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 11, 2021 16:21:59
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 09:08:55
 
 !                              |--------------- Initial N State Variables ----------------|----------------- Final N State Variables -----------------|------------- N Additions -------------|---------------- N Subtractions -----------------|--Mineralization---|----- Seasonal Balance -----|
 !                              |----------------- Organic ----------------------|         |------------------ Organic ----------------------|         |  Harvest   Applied                    |              Tile-     Plant     N gas     Flood|   Miner-    Immob-|                            |
 !                              | Surface      SOM1      SOM2      SOM3    Litter     Inorg|  Surface      SOM1      SOM2      SOM3    Litter     Inorg|  Residue   Residue  Fertiliz   Senesed|  Leached   drained    Uptake    Losses    Losses|   alized    ilized|Inorganic   Organic   Overall
 @Run FILEX               TN CR     SN0Di    S1NTDi    S2NTDi    S3NTDi     LNTDi     NIADi      SN0D     S1NTD     S2NTD     S3NTD      LNTD      NIAD      HRNH     RESNC      NICM     SNNTC      NLCM      TDFC      NUCM     NGasC      RNRO      NMNC      NIMC    InNBal   OrgNBal     SNBAL
-   1 KSRT2001.SBX         1 MZ      0.00      0.00  18282.50      0.00      0.00     22.06      0.00      0.00  18113.12      0.00      5.09     52.95      0.00      0.00      0.00      8.45      0.00      0.00    141.61      0.24      0.00    172.74      0.00      0.00      0.00      0.00
-   2 KSRT2001.SBX         2 MZ      0.00      0.00  18282.50      0.00      0.00     22.06      0.00      0.00  18112.93      0.00      0.60     66.42      0.00      0.00      0.00      1.02      0.00      0.00    125.30      0.32      0.00    169.98      0.00     -0.00      0.00      0.00
-   3 KSRT2001.SBX         3 MZ      0.00      0.00  18282.50      0.00      0.00     22.06      0.00      0.00  18113.01      0.00      4.96     53.74      0.00      0.00      0.00      8.39      0.00      0.00    141.00      0.24      0.00    172.92      0.00      0.00      0.00      0.00
+   1 KSRT2001.SBX         1 MZ      0.00      0.00  18282.50      0.00      0.00     22.06      0.00      0.00  18149.83      0.00      5.23     58.65      0.00      0.00      0.00      6.17      0.00      0.00     96.81      0.21      0.00    133.61      0.00      0.00      0.00      0.00
+   2 KSRT2001.SBX         2 MZ      0.00      0.00  18282.50      0.00      0.00     22.06      0.00      0.00  18141.21      0.00      3.87     59.44      0.00      0.00      0.00      4.14      0.00      0.00    103.80      0.38      0.00    141.56      0.00     -0.00      0.00      0.00
+   3 KSRT2001.SBX         3 MZ      0.00      0.00  18282.50      0.00      0.00     22.06      0.00      0.00  18147.00      0.00      4.00     54.18      0.00      0.00      0.00      5.47      0.00      0.00    104.63      0.22      0.00    136.97      0.00      0.00      0.00      0.00

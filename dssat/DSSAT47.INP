@@ -15,7 +15,7 @@ OUTPUT         OVERVIEW
                    1     1     S 2020106  2150 ROTH TECH FARM SIMULATION
                    Y     Y     N     N     N     N     N     Y     M
                    M     M     E     S     S     C     R     1     G     S     2     D     0
-                   R     A     R     N     M
+                   R     R     R     N     M
                    N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     Y
 !AUTOMATIC MANAGEM  
                    -99     -99   40.  100.   30.   40.   10.
@@ -24,7 +24,7 @@ OUTPUT         OVERVIEW
                 100.     1   20.
                      0     -99  100.    0.
 *EXP.DETAILS        
-  1KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED                      
+  1KSRT2001 SB ARM 2020 KS, IRRIGATED                                      
 *TREATMENTS         
   3 1 1 0 20 IRRIG, ASCE SHORT.....
 *CULTIVARS          
@@ -46,23 +46,17 @@ OUTPUT         OVERVIEW
    2020151     -99   7.6   7.6     S     R   76.  -99.   5.0  -99.  -99. -99.0 -99.0 -99.0
 *IRRIGATION         
    0.750   30.   75.  -99. GS000 IR001   0.0
-   2020167 IR004   8.0
-   2020170 IR004   8.0
-   2020181 IR004  13.0
-   2020230 IR004  13.0
-   2020235 IR004  13.0
-   2020237 IR004  13.0
-   2020240 IR004  11.0
-   2020242 IR004  11.0
-   2020244 IR004  11.0
-   2020246 IR004  11.0
-   2020250 IR004  11.0
-   2020253 IR004  11.0
-   2020256 IR004   8.0
-   2020259 IR004   8.0
-   2020262 IR004   8.0
-   2020265 IR004   8.0
-   2020269 IR004   7.0
+   2020148 IR004  25.0
+   2020158 IR004  25.0
+   2020167 IR004  25.0
+   2020174 IR004  25.0
+   2020181 IR004  25.0
+   2020230 IR004  25.0
+   2020237 IR004  25.0
+   2020244 IR004  25.0
+   2020251 IR004  25.0
+   2020259 IR004  25.0
+   2020265 IR004  25.0
 *FERTILIZERS        
 *RESIDUES           
      20166 RE001  1000  0.80  0.00  0.00  100.   15.   -99

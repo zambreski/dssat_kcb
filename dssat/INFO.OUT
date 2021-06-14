@@ -2,11 +2,11 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 11, 2021 16:21:59
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 09:08:55
 
 *RUN   1        : 20 IRRIG, PETPEN NO KCB..          KSRT2001    1
 
- EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED
+ EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED
  DATA PATH      :
  TREATMENT  1   : 20 IRRIG, PETPEN NO KCB..
   
@@ -97,11 +97,11 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 11, 2021 16:21:59
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 09:08:55
 
 *RUN   2        : 20 IRRIG, PETPEN KCB..... MZCER047 KSRT2001    2
  MODEL          : MZCER047 - Maize
- EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED
+ EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED
  DATA PATH      :
  TREATMENT  2   : 20 IRRIG, PETPEN KCB..... MZCER047
   
@@ -170,11 +170,11 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 11, 2021 16:21:59
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 09:08:55
 
 *RUN   3        : 20 IRRIG, ASCE SHORT..... MZCER047 KSRT2001    3
  MODEL          : MZCER047 - Maize
- EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED & NON-IRRIGATED
+ EXPERIMENT     : KSRT2001 SB ARM 2020 KS, IRRIGATED
  DATA PATH      :
  TREATMENT  3   : 20 IRRIG, ASCE SHORT..... MZCER047
   
