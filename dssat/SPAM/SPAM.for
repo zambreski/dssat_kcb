@@ -300,7 +300,6 @@ C       and total potential water uptake rate.
           ENDIF
 		
 		
-		
           CALL PET(CONTROL, 
      &      ET_ALB, XHLAI, MEEVP, WEATHER,ISWITCH,  !Input for all
      &      EORATIO, !Needed by Penman-Monteith
@@ -422,6 +421,8 @@ C       and total potential water uptake rate.
 !-----------------------------------------------------------------------
 !     ALTERNATE CALL TO ENERGY BALANCE ROUTINES
 !-----------------------------------------------------------------------
+
+	
       IF (CROP .NE. 'FA') THEN
         IF (MEEVP .EQ. 'Z' .OR.
      &        (MEPHO .EQ. 'L' .AND. XHLAI .GT. 0.0)) THEN
@@ -434,6 +435,7 @@ C       and total potential water uptake rate.
      &    WEATHER, XLAI,                                 !Input
      &    EOP, EP, ES, RWU, TRWUP)                        !Output
           EVAP = ES  !CHP / BK 7/13/2017
+		
         ENDIF
 
 !-----------------------------------------------------------------------

@@ -78,7 +78,7 @@ C       supports combined interception coefficient of 0.5 for PAR and NIR
 C       01/15/03 - Work of Sau et al, shows that a K of 0.5 was better in
 C       all cases, for PT form as well as the Dynamic form for predicting
 C       soil water balance and predicting measured ET.
-		PRINT *,KCB
+		
         IF (KCB .GE. 0.0) THEN
           EOP = KCB * REFET !KRT added for ASCE dual Kc ET approach
 		  !PRINT *,KCB

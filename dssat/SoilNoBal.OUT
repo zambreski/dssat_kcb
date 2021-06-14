@@ -1,6 +1,6 @@
 *SOIL ORGANIC N BALANCE
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 09:08:55
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 14:17:00
 
 *RUN   1        : 20 IRRIG, PETPEN NO KCB.. MZCER047 KSRT2001    1
  MODEL          : MZCER047 - Maize
@@ -14,23 +14,23 @@
 !                                                2020/106            2020/277
 !SOIL N BALANCE                                 -----------kg N/ha-----------
 
-!   Soil Humus N                                 18282.50            18149.83
-!   Soil Litter N                                    0.00                5.23
+!   Soil Humus N                                 18282.50            18143.05
+!   Soil Litter N                                    0.00                3.29
 !   N in Surface Residue                             0.00                0.00
 
 !   Added to / Removed from Soil:
 !   N in Harvest Residues from Previous Crop         0.00
 !   N from Organic Applications                      0.00
-!   N from senesced plant matter                     6.17
+!   N from senesced plant matter                     5.08
 !   N immobilized                                    0.00
-!   N mineralized                                                      133.61
+!   N mineralized                                                      141.23
 
-!   Total N balance                              18288.67            18288.67
-!   Balance                                                             0.002
+!   Total N balance                              18287.58            18287.58
+!   Balance                                                             0.000
 
 !===============================================================================
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 09:08:55
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 14:17:00
 
 *RUN   2        : 20 IRRIG, PETPEN KCB..... MZCER047 KSRT2001    2
  MODEL          : MZCER047 - Maize
@@ -44,23 +44,23 @@
 !                                                2020/106            2020/277
 !SOIL N BALANCE                                 -----------kg N/ha-----------
 
-!   Soil Humus N                                 18282.50            18141.21
-!   Soil Litter N                                    0.00                3.87
+!   Soil Humus N                                 18282.50            18135.48
+!   Soil Litter N                                    0.00                2.58
 !   N in Surface Residue                             0.00                0.00
 
 !   Added to / Removed from Soil:
 !   N in Harvest Residues from Previous Crop         0.00
 !   N from Organic Applications                      0.00
-!   N from senesced plant matter                     4.14
+!   N from senesced plant matter                     4.15
 !   N immobilized                                    0.00
-!   N mineralized                                                      141.56
+!   N mineralized                                                      148.59
 
-!   Total N balance                              18286.63            18286.64
-!   Balance                                                             0.002
+!   Total N balance                              18286.65            18286.65
+!   Balance                                                             0.004
 
 !===============================================================================
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 09:08:55
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 14:17:00
 
 *RUN   3        : 20 IRRIG, ASCE SHORT..... MZCER047 KSRT2001    3
  MODEL          : MZCER047 - Maize
@@ -74,16 +74,16 @@
 !                                                2020/106            2020/277
 !SOIL N BALANCE                                 -----------kg N/ha-----------
 
-!   Soil Humus N                                 18282.50            18147.00
-!   Soil Litter N                                    0.00                4.00
+!   Soil Humus N                                 18282.50            18141.61
+!   Soil Litter N                                    0.00                2.24
 !   N in Surface Residue                             0.00                0.00
 
 !   Added to / Removed from Soil:
 !   N in Harvest Residues from Previous Crop         0.00
 !   N from Organic Applications                      0.00
-!   N from senesced plant matter                     5.47
+!   N from senesced plant matter                     3.77
 !   N immobilized                                    0.00
-!   N mineralized                                                      136.97
+!   N mineralized                                                      142.41
 
-!   Total N balance                              18287.97            18287.97
-!   Balance                                                             0.000
+!   Total N balance                              18286.27            18286.27
+!   Balance                                                            -0.002

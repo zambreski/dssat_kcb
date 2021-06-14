@@ -1,6 +1,6 @@
 *SOIL INORGANIC N BALANCE
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 09:08:55
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 14:17:00
 
 *RUN   1        : 20 IRRIG, PETPEN NO KCB.. MZCER047 KSRT2001    1
  MODEL          : MZCER047 - Maize
@@ -15,32 +15,32 @@
 !                                                2020/106            2020/277
 !                                               (kg[N]/ha)          (kg[N]/ha)
 ! Soil N state variables:
-!   Soil NO3                                        19.61               57.02
-!   Soil NH4                                         2.45                1.55
+!   Soil NO3                                        19.61              229.01
+!   Soil NH4                                         2.45                1.58
 !   Soil Urea                                        0.00                0.00
-!   Soil N gases                                     0.00                0.08
+!   Soil N gases                                     0.00                0.10
 !   Unreleased fert N                                                    0.00
 
 ! N additions:
-!   Fertilizer N                                     0.00
-!   Mineralized N                                  133.61
+!   Fertilizer N                                   255.00
+!   Mineralized N                                  141.23
 
 ! N subtractions:
 !   N immobilized                                                        0.00
 !   N leached                                                            0.00
 !   N loss to tile drainage                                              0.00
-!   N Uptake From Soil                                                  96.81
+!   N Uptake From Soil                                                 187.00
 !   NH3 loss                                                             0.00
-!   N2O loss                                                             0.10
+!   N2O loss                                                             0.35
 !   N2 loss                                                              0.00
-!   NO loss                                                              0.12
+!   NO loss                                                              0.25
 
-!   Total N balance                                155.67              155.67
-!   Balance                                                             0.000
+!   Total N balance                                418.29              418.29
+!   Balance                                                            -0.000
 
 !===============================================================================
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 09:08:55
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 14:17:00
 
 *RUN   2        : 20 IRRIG, PETPEN KCB..... MZCER047 KSRT2001    2
  MODEL          : MZCER047 - Maize
@@ -55,32 +55,32 @@
 !                                                2020/106            2020/277
 !                                               (kg[N]/ha)          (kg[N]/ha)
 ! Soil N state variables:
-!   Soil NO3                                        19.61               55.95
-!   Soil NH4                                         2.45                3.37
+!   Soil NO3                                        19.61              154.18
+!   Soil NH4                                         2.45                3.58
 !   Soil Urea                                        0.00                0.00
-!   Soil N gases                                     0.00                0.12
+!   Soil N gases                                     0.00                1.67
 !   Unreleased fert N                                                    0.00
 
 ! N additions:
-!   Fertilizer N                                     0.00
-!   Mineralized N                                  141.56
+!   Fertilizer N                                   255.00
+!   Mineralized N                                  148.59
 
 ! N subtractions:
 !   N immobilized                                                        0.00
 !   N leached                                                            0.00
 !   N loss to tile drainage                                              0.00
-!   N Uptake From Soil                                                 103.80
+!   N Uptake From Soil                                                 262.88
 !   NH3 loss                                                             0.00
-!   N2O loss                                                             0.11
-!   N2 loss                                                              0.16
-!   NO loss                                                              0.12
+!   N2O loss                                                             1.70
+!   N2 loss                                                              0.89
+!   NO loss                                                              0.75
 
-!   Total N balance                                163.62              163.62
+!   Total N balance                                425.65              425.65
 !   Balance                                                            -0.000
 
 !===============================================================================
 
-*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 09:08:55
+*DSSAT Cropping System Model Ver. 4.7.5.035 -develop  JUN 14, 2021 14:17:00
 
 *RUN   3        : 20 IRRIG, ASCE SHORT..... MZCER047 KSRT2001    3
  MODEL          : MZCER047 - Maize
@@ -95,25 +95,25 @@
 !                                                2020/106            2020/277
 !                                               (kg[N]/ha)          (kg[N]/ha)
 ! Soil N state variables:
-!   Soil NO3                                        19.61               52.52
-!   Soil NH4                                         2.45                1.57
+!   Soil NO3                                        19.61              279.21
+!   Soil NH4                                         2.45                1.64
 !   Soil Urea                                        0.00                0.00
-!   Soil N gases                                     0.00                0.09
+!   Soil N gases                                     0.00                0.10
 !   Unreleased fert N                                                    0.00
 
 ! N additions:
-!   Fertilizer N                                     0.00
-!   Mineralized N                                  136.97
+!   Fertilizer N                                   255.00
+!   Mineralized N                                  142.41
 
 ! N subtractions:
 !   N immobilized                                                        0.00
 !   N leached                                                            0.00
 !   N loss to tile drainage                                              0.00
-!   N Uptake From Soil                                                 104.63
+!   N Uptake From Soil                                                 137.92
 !   NH3 loss                                                             0.00
-!   N2O loss                                                             0.10
+!   N2O loss                                                             0.35
 !   N2 loss                                                              0.00
-!   NO loss                                                              0.12
+!   NO loss                                                              0.25
 
-!   Total N balance                                159.03              159.03
+!   Total N balance                                419.47              419.47
 !   Balance                                                             0.000

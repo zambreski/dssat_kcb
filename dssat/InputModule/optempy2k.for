@@ -184,7 +184,7 @@ C-----------------------------------------------------------------------
 C
 C-----------------------------------------------------------------------
 	  
-	  ! ZAMBRESKI 2021 (Addextra file for crop coefficients)
+	  ! ZAMBRESKI 2021 (Add extra file for crop coefficients)
 	  IF (IKCB .EQ. 'Y' ) THEN
         LINIO = LINIO + 1
         WRITE (LUNIO,'(A7,8X,A12,1X,A80)',IOSTAT=ERRNUM) 

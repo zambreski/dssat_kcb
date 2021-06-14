@@ -45,6 +45,6 @@ if __name__== "__main__":
                 fullpath = os.path.join(folder, file)
                 with open(fullpath, 'r') as f:
                     for line in f:
-                        if "PRINT *" in line:
+                        if "MEPHO" in line:
                             print(fullpath)
                             #break

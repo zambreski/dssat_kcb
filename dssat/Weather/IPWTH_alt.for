@@ -174,7 +174,6 @@ C     The components are copied into local variables for use here.
 		
 		! READ in KCB values here at simulation beginning
 		IKCB   = ISWITCH % IKCB       ! ZAMBRESKI 2021
-		PRINT *,IKCB
 		IF (IKCB .EQ. 'Y') THEN
 		   CALL READ_KCB(CONTROL,YRDOY_A,KCB_A) 
 		ELSE 
