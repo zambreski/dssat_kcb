@@ -15,7 +15,7 @@ The control file modifications are under the *FIELDS and *SIMULATION CONTROL sec
 
 KCID Description: 4 letter prefix that points to the file. These files must have extension ***.KCB
 
----- </br>
+-------
 
 *SIMULATION CONTROLS <br/>
 ...</br>
