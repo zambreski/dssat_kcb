@@ -40,6 +40,6 @@ Users should follow the steps outlined in the original DSSAT repository (see abo
 Head researchers: Travis Wiederstein and Vaishali Sharda </br>
 Coder: Zachary Zambreski
 <p align="center">
-<img src = "/figures/figures/ETAA.png" width = "350">
-<img src = "/figures/figures/KCAA.png" width = "350">
+<img src = "/figures/figures/ETAA.png" width = "400">
+<img src = "/figures/figures/KCAA.png" width = "400">
  </p>
