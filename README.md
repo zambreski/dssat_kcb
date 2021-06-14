@@ -39,3 +39,5 @@ Users should follow the steps outlined in the original DSSAT repository (see abo
 
 Head researchers: Travis Wiederstein and Vaishali Sharda </br>
 Coder: Zachary Zambreski
+
+<img src = "/figures/figures/ETAA.png">
