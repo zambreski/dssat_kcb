@@ -6,12 +6,14 @@ This repository contains source code for running DSSAT version 4.7 with daily ba
 
 In the control file, there are new options to be read to tell DSSAT whether it should look for forcing KCB files. The user is encouraged to study the control file (KSRT2001.SBX) provided as example in this respository.
 
-These modifications are under the *FIELDS and *SIMULATION CONTROL sections.
+The control file modifications are under the *FIELDS and *SIMULATION CONTROL sections.
 
-*FIELDS
+*FIELDS <br/>
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    KCID
 
-@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2   KCB \n
+
+*SIMULATION CONTROLS <br/>
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2   KCB <br/>
  1 OP              Y     Y     Y     N     N     N     N     Y     M     N
 
 
