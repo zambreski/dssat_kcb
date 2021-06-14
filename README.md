@@ -11,7 +11,7 @@ The control file modifications are under the *FIELDS and *SIMULATION CONTROL sec
 -------
 
 *FIELDS <br/>
-@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    KCID </br>
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    *KCID* </br>
 
 KCID Description: 4 letter prefix that points to the file. These files must have extension ***.KCB
 
