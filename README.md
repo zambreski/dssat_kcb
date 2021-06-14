@@ -44,5 +44,5 @@ Coder: Zachary Zambreski
 <img src = "/figures/figures/KCAA.png" width = "400">
  </p>
  
- File structure of KCB file
- <img src = "/figures/figures/KC_File_Example.png" width = "400">
+ File structure of KCB file </br>
+ <img src = "/figures/figures/KCB_File_Example.png" width = "400">
