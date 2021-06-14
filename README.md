@@ -12,7 +12,6 @@ In the control file, there are new options described below that inform DSSAT whe
 
 The control file modifications are under the *FIELDS and *SIMULATION CONTROL sections.
 
--------
 <pre>
 *FIELDS 
 @L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    KCID
@@ -21,7 +20,7 @@ KCID description: 4 letter prefix that will be used to create path to the file. 
 In this example, the file name should be RT082001.KCB. The characters after the first four match the weather file.
 
 </pre>
--------
+
 <pre>
 *SIMULATION CONTROLS 
 ...
