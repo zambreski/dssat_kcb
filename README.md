@@ -17,7 +17,7 @@ The control file modifications are under the *FIELDS and *SIMULATION CONTROL sec
  1 OP              Y     Y     Y     N     N     N     N     Y     M     N
 
 
-# Contacts
+### Contacts
 
 Head researchers: Travis Wiederstein and Vaishali Sharda
 Coder: Zachary Zambreski
