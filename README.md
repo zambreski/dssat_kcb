@@ -11,8 +11,8 @@ The control file modifications are under the *FIELDS and *SIMULATION CONTROL sec
 -------
 <pre>
 *FIELDS 
-@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    *KCID* </br>
-
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    *KCID*
+ 1 KSRT0001 RT01       -99     0 IB000     0     0 00000 -99    180  KSFC000004 RT08 </br>
 KCID description: 4 letter prefix that points to the file. These files must have extension ***.KCB
 </pre>
 -------
@@ -22,7 +22,7 @@ KCID description: 4 letter prefix that points to the file. These files must have
 @N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2   KCB 
  1 OP              Y     Y     Y     N     N     N     N     Y     M     N </br>
  
-KCB description: Set KCB to 'Y' (Yes) to tell DSSAT to look for KCB files. 
+KCB description: Set KCB to 'Y' (Yes) to tell DSSAT to look for KCB files. The default value is "N" (No). 
 </pre>
 
 ### Contacts
