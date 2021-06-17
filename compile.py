@@ -78,4 +78,4 @@ if __name__== "__main__":
     os.chdir('../')
     
     # Test the new model code on treatment file
-    os.system('./dscsm047.exe MZCER047 A KSRT2001.SBX')
+    os.system('./dscsm047.exe MZCER047 A KSRT2001.MZX')

@@ -7,7 +7,7 @@ C:\cygwin64\home\ztz\dssat_kcb\dssat
 Roth_Zones
 
 *GSC3: TemplateFile,InputFile
-KSRT2001.SBX.gst,KSRT2001.SBX
+KSRT2001.MZX.gst,KSRT2001.MZX
 
 *GSC4: InputAttribute,Code
 ID_2,#N
@@ -21,4 +21,4 @@ ETCM,Integer(3)
 EPCM,Integer(3)
 
 *GSC7: CommandLine
-dscsm047.exe A KSRT2001.SBX
+dscsm047.exe A KSRT2001.MZX
